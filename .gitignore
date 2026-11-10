@@ -3,11 +3,10 @@ node_modules/
 out/
 build/
 dist/
-.env
-.env.*
 !.env.example
 .DS_Store
 
 # Temporary FFmpeg files
 ffmpeg2pass-0.log
 ffmpeg2pass-0.log.mbtree
+config.bat
