@@ -102,8 +102,8 @@ export default function SmoothScroll({ children }) {
             const prevHtmlOverflowY = document.documentElement.style.overflowY;
             const prevBodyOverflowY = document.body.style.overflowY;
 
-            document.documentElement.style.overflowY = "scroll";
-            document.body.style.overflowY = "scroll";
+            document.documentElement.style.overflowY = "auto";
+            document.body.style.overflowY = "visible";
 
             window.scrollTo(0, 0);
 

@@ -39,7 +39,7 @@ export default function StoryPage() {
           sessionStorage.removeItem('returnToStory');
         }
       }
-    } catch {}
+    } catch { }
 
     // Reset scroll to top unless returning from Tour
     if (typeof window !== 'undefined') {
